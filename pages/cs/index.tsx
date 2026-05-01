@@ -3,11 +3,12 @@ import { Stack } from "@mui/material";
 import { NextPage } from "next";
 import { useState } from "react";
 
-const Community : NextPage = () => {
+const CS : NextPage = () => {
+    const [title, setTitle] = useState<string>("HELLO")
     return(
        <>
             <div style={{margin:"20px 0px"}}>
-               <Stack className="container">COMMUNITY</Stack>
+               <Stack className="container">CS LIST</Stack>
             </div>
            
         </>
@@ -15,4 +16,4 @@ const Community : NextPage = () => {
      
 }
 
-export default withLayoutBasic(Community);
+export default withLayoutBasic(CS);
