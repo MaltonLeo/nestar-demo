@@ -48,7 +48,7 @@ const PopularProperties = ({ initialInput, ...props }: any) => {
             })}
           </Swiper>
         </Stack>
-      </Stack>
+      </Stack>  
     </Stack>
   );
 };

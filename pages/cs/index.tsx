@@ -4,7 +4,6 @@ import { NextPage } from "next";
 import { useState } from "react";
 
 const CS : NextPage = () => {
-    const [title, setTitle] = useState<string>("HELLO")
     return(
        <>
             <div style={{margin:"20px 0px"}}>
