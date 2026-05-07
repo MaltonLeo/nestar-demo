@@ -8,6 +8,7 @@ import useDeviceDetect from "@/libs/hooks/useDeviseDetect";
 const withLayoutMain = (Component: any) => {
   return (props: any) => {
     const device = useDeviceDetect();
+
     if(device == "mobile") {
       return (
       <>
