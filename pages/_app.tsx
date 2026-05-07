@@ -8,6 +8,9 @@ import client from "@/apollo/client";
 import "../scss/app.scss";
 import "../scss/pc/main.scss";
 import "../scss/mobile/main.scss";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 export default function App({ Component, pageProps }: AppProps) {
   // @ts-ignore
